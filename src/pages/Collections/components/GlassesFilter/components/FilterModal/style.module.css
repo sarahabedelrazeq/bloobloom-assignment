@@ -1,3 +1,32 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .glassesFilterModalContainer {
   overflow: hidden;
   -webkit-transition: max-height 1s ease;
@@ -14,6 +43,48 @@
 }
 .glassesFilterModalContainer {
   display: none;
+}
+
+.glassesFilterFooter {
+  padding: 18px 30px;
+  border-top: 1px solid;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.glassesFilterFooterStart {
+  width: calc(50% - 102px);
+}
+
+.glassesFilterFooterStart .glassesFilterFooterSelected {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.glassesFilterFooterStart .glassesFilterFooterSelected .glassesFilterButton {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: 0;
+  background-color: transparent;
+}
+
+.glassesFilterFooterEnd {
+  width: calc(50% - 102px);
+  text-align: end;
+}
+
+.glassesFilterFooter .glassesFilterFooterText {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 0;
+  background-color: transparent;
 }
 
 @media (max-width: 719.9px) {
