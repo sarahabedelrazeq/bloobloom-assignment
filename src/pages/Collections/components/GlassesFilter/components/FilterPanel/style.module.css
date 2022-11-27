@@ -106,4 +106,8 @@
     padding-inline: 22px;
     padding-bottom: 22px;
   }
+  .glassesFilter .glassesFilterTitle {
+    font-weight: 600;
+    font-size: 13px;
+  }
 }
