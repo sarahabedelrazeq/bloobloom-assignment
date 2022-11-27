@@ -93,12 +93,11 @@
   transition: max-height 1s ease;
 }
 
-.glassesFilterContainer .glassesFilterContainerMain{
+.glassesFilterContainer .glassesFilterContainerMain {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   border-top: 1px solid;
 }
-
 
 .glassesFilterFooter {
   padding: 18px 30px;
@@ -124,6 +123,11 @@
   align-items: center;
   border: 0;
   background-color: transparent;
+  font-weight: 300;
+  font-size: 13px;
+  margin-top: 23px;
+  margin-right: 18px;
+  text-transform: uppercase;
 }
 
 .glassesFilterFooterEnd {
@@ -159,7 +163,7 @@
     font-weight: 700;
     font-size: 14px;
   }
-  
+
   .glassesFilterHeader .glassesFilterTitle {
     font-size: 20px;
   }
@@ -219,7 +223,6 @@
   }
 }
 @media (max-width: 719.9px) {
-
   .glassesFilterContainer {
     display: none;
   }

@@ -70,6 +70,11 @@
   align-items: center;
   border: 0;
   background-color: transparent;
+  font-weight: 300;
+  font-size: 13px;
+  margin-top: 23px;
+  margin-right: 18px;
+  text-transform: uppercase;
 }
 
 .glassesFilterFooterEnd {
