@@ -1,10 +1,9 @@
 .glassesViewList {
   display: grid;
-  grid-template-columns: repeat(3, calc(100% / 3));
+  grid-template-columns: repeat(3, calc(100% / 3 ));
 }
 
 .glassesViewList .glassesViewListItem {
-  border-bottom: 1px solid;
   border-right: 1px solid;
 }
 .glassesViewList .glassesViewListItem:nth-child(3n) {
