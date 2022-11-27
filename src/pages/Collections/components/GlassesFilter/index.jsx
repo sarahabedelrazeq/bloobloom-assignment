@@ -104,7 +104,7 @@ export default function GlassesFilter({
       <div
         className={styles.glassesFilterContainer}
         style={{
-          maxHeight: filterOpen ? "400px" : 0,
+          maxHeight: filterOpen ? "1200px" : 0,
         }}
       >
         <div className={styles.glassesFilterContainerMain}>
