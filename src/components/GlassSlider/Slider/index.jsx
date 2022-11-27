@@ -69,6 +69,7 @@ export default function Slider({ glass_variants, setActiveItem }) {
                     src={media[activeImage]?.url}
                     alt={frame_variant?.name}
                     style={{ width: "100%" }}
+                    loading="lazy"
                   />
                 </Swiper>
               </SwiperSlide>

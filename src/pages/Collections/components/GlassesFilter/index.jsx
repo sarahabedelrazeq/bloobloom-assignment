@@ -86,6 +86,7 @@ export default function GlassesFilter({
                 width="20"
                 height="22"
                 alt="filter icon"
+                loading="lazy"
               />
               {count > 0 && (
                 <span className={styles.glassesFilterHeaderToggleCount}>
