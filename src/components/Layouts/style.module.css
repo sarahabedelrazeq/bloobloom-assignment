@@ -1,0 +1,9 @@
+.pageContainer{
+  padding-top: 50px;
+  border-left: 1px solid black;
+}
+@media (max-width: 1366px) {
+  .pageContainer {
+    padding-top: 40px;
+  }
+}
