@@ -1,6 +1,5 @@
 .glassesFilter {
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
+  border-bottom: 1px solid;
 }
 .glassesFilterHeader {
   padding: 15px 30px;
@@ -29,7 +28,7 @@
   font-size: 15px;
 }
 .glassesFilterHeader .glassesFilterHeaderSwitcher {
-  border: 1px solid black;
+  border: 1px solid;
   width: 38px;
   padding: 2px;
   display: block;
@@ -38,14 +37,14 @@
 .glassesFilterHeader .glassesFilterHeaderSwitcherToggle {
   width: 14px;
   height: 8px;
-  border: 1px solid black;
+  border: 1px solid;
   display: block;
 }
 .glassesFilterHeader .glassesFilterHeaderSwitcherToggleChecked {
   width: 14px;
   height: 8px;
   background-color: black;
-  border: 1px solid black;
+  border: 1px solid;
   margin-left: 16px;
   display: block;
 }
@@ -85,8 +84,7 @@
   font-size: 15px;
 }
 
-.glassesFilterContainer,
-.glassesFilterModalContainer {
+.glassesFilterContainer {
   overflow: hidden;
   -webkit-transition: max-height 1s ease;
   -moz-transition: max-height 1s ease;
@@ -95,19 +93,16 @@
   transition: max-height 1s ease;
 }
 
-.glassesFilterContainer .glassesFilterContainerMain,
-.glassesFilterModalContainer .glassesFilterContainerMain {
+.glassesFilterContainer .glassesFilterContainerMain{
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  border-top: 1px solid black;
+  border-top: 1px solid;
 }
-.glassesFilterModalContainer {
-  display: none;
-}
+
 
 .glassesFilterFooter {
   padding: 18px 30px;
-  border-top: 1px solid black;
+  border-top: 1px solid;
   display: flex;
   width: 100%;
   align-items: center;
@@ -182,12 +177,12 @@
     grid-area: start;
     padding: 10px 0;
     justify-content: center;
-    border-right: 1px solid black;
+    border-right: 1px solid;
   }
   .glassesFilterHeader .glassesFilterHeaderCenter {
     grid-area: center;
     padding: 10px 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid;
   }
   .glassesFilterHeader .glassesFilterHeaderEnd {
     grid-area: end;
@@ -203,7 +198,7 @@
     justify-content: center;
   }
   .glassesFilterHeader .glassesFilterHeaderEnd .glassesFilterHeaderFilter {
-    border-right: 1px solid black;
+    border-right: 1px solid;
   }
 
   .glassesFilterHeader .glassesFilterTitle {
@@ -225,75 +220,6 @@
   }
 }
 @media (max-width: 719.9px) {
-  .glassesFilterModalContainer {
-    display: block;
-    top: 0;
-    background-color: white;
-    z-index: 999;
-    height: 100%;
-    overflow-y: auto;
-    border: 1px solid;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-  }
-  .glassesFilterModalContainer .glassesFilterContainerMain {
-    display: block;
-  }
-
-  .glassesFilterModalContainer .glassesFilterModalHeader {
-    height: 50px;
-    position: relative;
-    font-size: 15px;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .glassesFilterModalContainer .glassesFilterModalHeader button {
-    height: 100%;
-    cursor: pointer;
-    position: absolute;
-    right: 24px;
-    padding: 0;
-    border: 0;
-    background-color: transparent;
-  }
-
-  .glassesFilterModalContainer .glassesFilterModalBody {
-    height: calc(100vh - 100px);
-  }
-
-  .glassesFilterModalContainer .glassesFilterFooterStart {
-    width: 100%;
-  }
-
-  .glassesFilterModalContainer .glassesFilterFooterButtons {
-    display: grid;
-    grid-template-columns: 50% 50%;
-  }
-
-  .glassesFilterModalContainer
-    .glassesFilterFooterButtons
-    .glassesFilterFooterButton {
-    background-color: white;
-    display: block;
-    height: 50px;
-    font-weight: 700;
-    font-size: 15px;
-    border: 0;
-    border-left: 1px solid black;
-    border-top: 1px solid black;
-    line-height: 18px;
-  }
-  .glassesFilterModalContainer
-    .glassesFilterFooterButtons
-    .glassesFilterFooterButton:nth-child(odd) {
-    border-left: 0;
-  }
 
   .glassesFilterContainer {
     display: none;
@@ -314,7 +240,7 @@
   .glassesFilterHeader .glassesFilterHeaderCenter {
     grid-area: center;
     padding: 15px 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid;
   }
   .glassesFilterHeader .glassesFilterHeaderEnd {
     grid-area: end;
@@ -323,7 +249,7 @@
     grid-template-columns: 50% 50%;
     gap: 0;
     justify-content: flex-start;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid;
   }
   .glassesFilterHeader .glassesFilterHeaderEnd > div {
     display: flex;
@@ -331,7 +257,7 @@
     justify-content: center;
   }
   .glassesFilterHeader .glassesFilterHeaderEnd .glassesFilterHeaderFilter {
-    border-right: 1px solid black;
+    border-right: 1px solid;
   }
   .glassesFilterHeader .glassesFilterTitle {
     font-size: 18px;

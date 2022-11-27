@@ -3,18 +3,29 @@
   grid-template-columns: repeat(3, calc(100% / 3));
 }
 
-@media (max-width: 1318.9px) and (min-width: 700px){
+.glassesViewList .glassesViewListItem {
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+}
+.glassesViewList .glassesViewListItem:nth-child(3n) {
+  border-right: 0;
+}
+
+@media (max-width: 1318.9px) and (min-width: 700px) {
   .glassesViewList {
     grid-template-columns: 50% 50%;
   }
+
+  .glassesViewList .glassesViewListItem:nth-child(even) {
+    border-right: 0;
+  }
 }
-@media (max-width: 719.9px){
+@media (max-width: 719.9px) {
   .glassesViewList {
     grid-template-columns: 100%;
   }
-}
-
+  
 .glassesViewList .glassesViewListItem {
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
+  border-right: 0;
+}
 }

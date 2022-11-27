@@ -10,7 +10,7 @@
 .glassesFilterModalContainer .glassesFilterContainerMain {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  border-top: 1px solid black;
+  border-top: 1px solid;
 }
 .glassesFilterModalContainer {
   display: none;
@@ -77,8 +77,8 @@
     font-weight: 700;
     font-size: 15px;
     border: 0;
-    border-left: 1px solid black;
-    border-top: 1px solid black;
+    border-left: 1px solid;
+    border-top: 1px solid;
     line-height: 18px;
   }
   .glassesFilterModalContainer

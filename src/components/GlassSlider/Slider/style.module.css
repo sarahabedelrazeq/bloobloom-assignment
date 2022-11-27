@@ -37,8 +37,8 @@
   width: 100%;
   cursor: pointer !important;
   height: 50px;
-  border-top: 1px solid black;
-  border-right: 1px solid black;
+  border-top: 1px solid;
+  border-right: 1px solid;
 }
 .slider
   .pagination

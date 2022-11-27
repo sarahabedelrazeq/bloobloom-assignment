@@ -1,5 +1,5 @@
 .glassesFilter {
-  border-right: 1px solid black;
+  border-right: 1px solid;
   display: flex;
   flex-direction: column;
 }
@@ -79,7 +79,7 @@
     padding-inline: 30px;
   }
   .glassesFilter .glassesFilterListContainer {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid;
     max-height: 400px;
   }
   .glassesFilter .glassesFilterListContainerClose {

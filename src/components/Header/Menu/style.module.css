@@ -4,7 +4,7 @@
   width: 480px;
   max-width: 100%;
   background-color: white !important;
-  border: 1px solid black;
+  border: 1px solid;
   left: -500px;
   transition: left 0.5s ease;
   height: calc(100vh - 50px);
@@ -19,7 +19,7 @@
 
 .sideMenuHeader .sideMenuHeaderTap {
   padding-inline: 18px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid;
 }
 .sideMenuHeader .sideMenuHeaderTap:hover {
   background-color: black;
@@ -48,7 +48,7 @@
 
 .sideMenuHeader .sideMenuHeaderTapBack {
   padding-inline: 18px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid;
 }
 
 .sideMenuHeader .sideMenuHeaderTapBack .sideMenuHeaderTapButton {
@@ -101,7 +101,7 @@
 .sideMenuFooter .sideMenuFooterButton {
   height: 60px;
 
-  border: 1px solid black;
+  border: 1px solid;
   display: flex;
   align-items: center;
   justify-content: center;
