@@ -101,7 +101,7 @@
 .sideMenuFooter .sideMenuFooterButton {
   height: 60px;
 
-  border: 1px solid;
+  border: 1px solid #000;
   display: flex;
   align-items: center;
   justify-content: center;

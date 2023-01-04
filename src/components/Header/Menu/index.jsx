@@ -111,11 +111,9 @@ function Menu({ open, menCollections, womenCollections }) {
         </div>
       </div>
       <div
-        className={
-          open && active === 2
-            ? styles.navbarItemMenuOpen
-            : styles.navbarItemMenu
-        }
+        className={`${styles.navbarItemMenu} ${
+          open && active === 2 ? styles.navbarItemMenuOpen : ""
+        }`}
       >
         <div className={styles.sideMenuHeader}>
           <ul>
